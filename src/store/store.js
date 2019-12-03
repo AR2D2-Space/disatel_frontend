@@ -6,7 +6,7 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
   state: {
-    url: 'http://localhost:8000/',
+    url: 'https://disatel-back.herokuapp.com/',
     form: [],
     token: localStorage.token || null,
     objUser: '',
